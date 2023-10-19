@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Styles for the French fries page */
+        .fries-container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .fries-img {
+            max-width: 50%;
+            height: auto;
+        }
+
+        .fries-details {
+            margin: 20px 0;
+        }
+
+        .quantity {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .quantity label {
+            font-size: 18px;
+            margin-right: 10px;
+        }
+
+        .quantity input[type="number"] {
+            width: 40px;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .checkout-button {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="fries-container">
+        <h1>French Fries</h1>
+        <img class="fries-img" src="fries.jpg" alt="French Fries">
+        <div class="fries-details">
+            <p>Golden and crispy French fries, seasoned to perfection.</p>
+            <p>Price: $3.99</p>
+        </div>
+        <div class="quantity">
+            <label for="fries-quantity">Quantity:</label>
+            <input type="number" id="fries-quantity" value="1" min="1">
+        </div>
+        <a class="checkout-button" href="checkout.html">Checkout</a>
+    </div>
+</body>
+</html>

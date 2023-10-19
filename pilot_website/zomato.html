@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+         ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        ul.navbar li {
+            float: left;
+        }
+
+        ul.navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul.navbar li a:hover {
+            background-color: #444;
+        }
+
+        /* Content area styles */
+        .content {
+            margin-left: 0;
+            padding: 20px;
+            transition: margin-left 0.5s;
+        }
+
+    
+        .food-container {
+            display: flex;
+            justify-content: flex-end; /* Align boxes to the left */
+        }
+
+        /* Styles for food boxes */
+        .food-box {
+            width: 250px;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        .food-box img {
+            max-width: 100%;
+            height: 230px;
+        }
+
+        .food-box h3 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .food-box p {
+            font-size: 16px;
+        }
+
+        .background-div {
+            background-image: url('fast_food.jpg');
+            background-size: auto; /* Adjust this as needed */
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 200px; /* Adjust the height as needed */
+        }
+    </style>
+</head>
+<body>
+   
+   
+    
+    <ul class="navbar">
+        <li>
+            <img src="logo.jpg" alt="Famished Logo" style="height: 100px;">
+            
+        </li>
+       
+        <li><a href="#">Track Order</a></li>
+        <li><a href="#">Past Orders</a></li>
+        <li><a href="#">About Us</a></li>
+        
+    </ul>
+
+    
+    <div style="color:black;padding:20px; background-color: grey;" class = "background-div">
+        <h1>Welcome to Famished Fox</h1>
+        <p>This is the main content area of your webpage. You can add additional details and content here.</p>
+    </div>
+
+    
+     <div class="food-container">
+     <div class="food-box">
+        <a href="Burger.html"><img src="burger.jpg" alt="Burger"></a>
+        <h3>Burger</h3>
+        <p>Delicious beef burger with lettuce, cheese, and special sauce.</p>
+        <p>$8.99</p>
+    </div>
+
+    <div class="food-box">
+        <a href="Pizza.html"><img src="pizza.jpg" alt="Pizza"></a>
+        <h3>Pizza</h3>
+        <p>Freshly baked pizza with your choice of toppings.</p>
+        <p>$10.99</p>
+    </div>
+
+    <div class="food-box">
+        <a href="Spaghetti.html"><img src="Spaghetti.jpg" alt="Spaghetti"></a>
+        <h3>Spaghetti</h3>
+        <p>Fresh Spaghetti with minced beef.</p>
+        <p>$12.99</p>
+    </div>
+
+    <div class="food-box">
+        <a href="Fries.html"><img src="fries.jpg" alt="French Fries"></a>
+        <h3>French fries</h3>
+        <p>Freshly cooked fries in air frier to reduce calori intake</p>
+        <p>$2.99</p>
+    </div>
+</div>
+
+</body>
+</html>
